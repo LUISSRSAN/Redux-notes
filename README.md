@@ -35,3 +35,12 @@ FEATUES/ACCOUNTS
 FEATURES/
   ACCOUNTS/
   CUSTOMERS/
+
+USESELECTOR 
+  const fullName = useSelector((Store) => (store.customer.fullName)
+  dispatch()
+
+LEGACY WAY OF CONNECTING REDUX
+  -CONNECT API
+  -MapStateToProps
+  export default connect( mapStateToProps) ();
